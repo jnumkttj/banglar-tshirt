@@ -8,6 +8,7 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home'
 import Orders from './components/Orders/Orders';
 import './index.css'
+import Tshirt from './components/Tshirt/Tshirt';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
       {
         path: "/orders",
         element: <Orders></Orders>
-      }
+      }, 
     ]
   }
 ]);
